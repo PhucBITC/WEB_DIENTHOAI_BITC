@@ -360,25 +360,17 @@ h2 a {
     color: #151036;
 }
 
-.content__img {
-    overflow: hidden;
-
-}
 
 .image-container {
-    display: flex;
-    position: relative;
-    z-index: 5;
-    animation: slide 10s linear infinite;
-
+    margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap:30px;
 }
 
 .image-container .image {
-    width: 48vw;
-    border-radius: 8px;
-    margin-top: 12px;
-    margin-left: 11px;
-    padding: 0 2px;
+    width: 700px;
+    border-radius: 5px;
 }
 
 /* @keyframes slide {
@@ -387,10 +379,11 @@ h2 a {
     }
     0% {
       transform: translateX(-49% ); Di chuyển ảnh về bên trái
-    
+
     }
 } */
-.contact__icon {
+
+/* .contact__icon {
     position: fixed;
     z-index: 4;
     top: 50%;
@@ -414,7 +407,7 @@ h2 a {
 
 .contact__icon a:hover {
     transform: scale(1.3);
-}
+} */
 
 /* Các mục button */
 .content__list {
